@@ -3,7 +3,7 @@ function addTwoDigits(num)  {
     // Autor Astrid Niño 
     // GIT Profile https://github.com/astridnio
     //se define la expresion regular con parentesis para retornar un arreglo de resultados encontrados
-    var div="";
+    var div=/(\d)/;
     //se parsea el numero a string
     var num_rec=num.toString();
     // se hace el split del string obtenido anteriormente en un arreglo por digito. 
