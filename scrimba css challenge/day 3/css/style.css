@@ -1,0 +1,97 @@
+/* DON'T TOUCH THIS! */
+body {
+	font-family: Source Sans Pro, sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+.header-container {
+	width: 100%;
+	min-height: 15vh;
+	background: #429ef5;
+	font-weight: 800;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 4em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.title {
+	margin: 0;
+	padding: 10px;
+}
+
+.post-container {
+	border: 2px solid rgba(66, 245, 147, 0.8);
+	padding: 5vh;
+}
+
+.post-title {
+	font-weight: 800;
+	font-size: 2em;
+}
+
+.post-header-container {
+	width: 55%;
+	font-weight: 300;
+	font-size: 2em;
+
+}
+.post-content-container {
+	line-height: normal;
+	font-weight: 400;
+}
+
+.sidebar-container {
+	border: 2px solid rgba(255, 123, 71, 0.8);
+	padding: 5vh;
+}
+
+.sidebar-header-container {
+	font-size: 2em;
+}
+
+.related-post-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.related-post {
+	margin: 2vh;
+	font-size: 1.4em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgb(0, 108, 191);
+}
+
+.footer-container {
+	width: 100%;
+	background: gray;
+	margin: 0;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border: 2px solid rgba(0,0,0,0.8);
+	font-size: 2em;
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+body{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
+/* DON'T TOUCH THIS! */
+
+/* 
+Your goal is to restructure the given blog page into a blog-style layout, with a main post section, and a sidebar on the right. The blog post section should take up the majority of the width of the page, while the sidebar takes up the rest directly next to the blog post. The footer and header should remain at full width in their respective locations. Good luck! */
